@@ -1,0 +1,106 @@
+\hypertarget{structSPI__Handle__t}{}\doxysection{SPI\+\_\+\+Handle\+\_\+t Struct Reference}
+\label{structSPI__Handle__t}\index{SPI\_Handle\_t@{SPI\_Handle\_t}}
+
+
+SPI structure for handling data.  
+
+
+
+
+{\ttfamily \#include $<$BMS\+\_\+\+SPI.\+h$>$}
+
+
+
+Collaboration diagram for SPI\+\_\+\+Handle\+\_\+t\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=165pt]{structSPI__Handle__t__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{structSPI__TypeDef}{SPI\+\_\+\+Type\+Def}} $\ast$ \mbox{\hyperlink{structSPI__Handle__t_ab9de1a46d70962c1d112abfad6a90b65}{Instance}}
+\item 
+uint8\+\_\+t \mbox{\hyperlink{structSPI__Handle__t_a8b133d1eaa1f86a22f99c5b1104cf7ce}{Tx\+Xfersize}}
+\item 
+uint8\+\_\+t \mbox{\hyperlink{structSPI__Handle__t_a189f040eb5a2985729adb4dc13f49660}{Tx\+Xfercount}}
+\item 
+uint8\+\_\+t $\ast$ \mbox{\hyperlink{structSPI__Handle__t_a8b2fa605b11f873989fbf8a4c0719eb9}{p\+Txbuffer}}
+\item 
+uint8\+\_\+t \mbox{\hyperlink{structSPI__Handle__t_aec03cb165910e8500cc941e04220d58f}{Rx\+Xfersize}}
+\item 
+uint8\+\_\+t \mbox{\hyperlink{structSPI__Handle__t_a6bd1953bbe2912ea1a0dd63d65b815a9}{Rx\+Xfercount}}
+\item 
+uint8\+\_\+t $\ast$ \mbox{\hyperlink{structSPI__Handle__t_adc70c3b455bb0cc07a8ad8c4750f5097}{p\+Rxbuffer}}
+\item 
+uint32\+\_\+t \mbox{\hyperlink{structSPI__Handle__t_a9bd01753b3f9e3eb6b76f0bc127281bf}{errorcode}}
+\item 
+uint16\+\_\+t \mbox{\hyperlink{structSPI__Handle__t_a6f3d123dac3a808e73d83a65e2b2b83d}{timeoutcount}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+SPI structure for handling data. 
+
+\doxysubsection{Field Documentation}
+\mbox{\Hypertarget{structSPI__Handle__t_a9bd01753b3f9e3eb6b76f0bc127281bf}\label{structSPI__Handle__t_a9bd01753b3f9e3eb6b76f0bc127281bf}} 
+\index{SPI\_Handle\_t@{SPI\_Handle\_t}!errorcode@{errorcode}}
+\index{errorcode@{errorcode}!SPI\_Handle\_t@{SPI\_Handle\_t}}
+\doxysubsubsection{\texorpdfstring{errorcode}{errorcode}}
+{\footnotesize\ttfamily uint32\+\_\+t SPI\+\_\+\+Handle\+\_\+t\+::errorcode}
+
+\mbox{\Hypertarget{structSPI__Handle__t_ab9de1a46d70962c1d112abfad6a90b65}\label{structSPI__Handle__t_ab9de1a46d70962c1d112abfad6a90b65}} 
+\index{SPI\_Handle\_t@{SPI\_Handle\_t}!Instance@{Instance}}
+\index{Instance@{Instance}!SPI\_Handle\_t@{SPI\_Handle\_t}}
+\doxysubsubsection{\texorpdfstring{Instance}{Instance}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structSPI__TypeDef}{SPI\+\_\+\+Type\+Def}}$\ast$ SPI\+\_\+\+Handle\+\_\+t\+::\+Instance}
+
+\mbox{\Hypertarget{structSPI__Handle__t_adc70c3b455bb0cc07a8ad8c4750f5097}\label{structSPI__Handle__t_adc70c3b455bb0cc07a8ad8c4750f5097}} 
+\index{SPI\_Handle\_t@{SPI\_Handle\_t}!pRxbuffer@{pRxbuffer}}
+\index{pRxbuffer@{pRxbuffer}!SPI\_Handle\_t@{SPI\_Handle\_t}}
+\doxysubsubsection{\texorpdfstring{pRxbuffer}{pRxbuffer}}
+{\footnotesize\ttfamily uint8\+\_\+t$\ast$ SPI\+\_\+\+Handle\+\_\+t\+::p\+Rxbuffer}
+
+\mbox{\Hypertarget{structSPI__Handle__t_a8b2fa605b11f873989fbf8a4c0719eb9}\label{structSPI__Handle__t_a8b2fa605b11f873989fbf8a4c0719eb9}} 
+\index{SPI\_Handle\_t@{SPI\_Handle\_t}!pTxbuffer@{pTxbuffer}}
+\index{pTxbuffer@{pTxbuffer}!SPI\_Handle\_t@{SPI\_Handle\_t}}
+\doxysubsubsection{\texorpdfstring{pTxbuffer}{pTxbuffer}}
+{\footnotesize\ttfamily uint8\+\_\+t$\ast$ SPI\+\_\+\+Handle\+\_\+t\+::p\+Txbuffer}
+
+\mbox{\Hypertarget{structSPI__Handle__t_a6bd1953bbe2912ea1a0dd63d65b815a9}\label{structSPI__Handle__t_a6bd1953bbe2912ea1a0dd63d65b815a9}} 
+\index{SPI\_Handle\_t@{SPI\_Handle\_t}!RxXfercount@{RxXfercount}}
+\index{RxXfercount@{RxXfercount}!SPI\_Handle\_t@{SPI\_Handle\_t}}
+\doxysubsubsection{\texorpdfstring{RxXfercount}{RxXfercount}}
+{\footnotesize\ttfamily uint8\+\_\+t SPI\+\_\+\+Handle\+\_\+t\+::\+Rx\+Xfercount}
+
+\mbox{\Hypertarget{structSPI__Handle__t_aec03cb165910e8500cc941e04220d58f}\label{structSPI__Handle__t_aec03cb165910e8500cc941e04220d58f}} 
+\index{SPI\_Handle\_t@{SPI\_Handle\_t}!RxXfersize@{RxXfersize}}
+\index{RxXfersize@{RxXfersize}!SPI\_Handle\_t@{SPI\_Handle\_t}}
+\doxysubsubsection{\texorpdfstring{RxXfersize}{RxXfersize}}
+{\footnotesize\ttfamily uint8\+\_\+t SPI\+\_\+\+Handle\+\_\+t\+::\+Rx\+Xfersize}
+
+\mbox{\Hypertarget{structSPI__Handle__t_a6f3d123dac3a808e73d83a65e2b2b83d}\label{structSPI__Handle__t_a6f3d123dac3a808e73d83a65e2b2b83d}} 
+\index{SPI\_Handle\_t@{SPI\_Handle\_t}!timeoutcount@{timeoutcount}}
+\index{timeoutcount@{timeoutcount}!SPI\_Handle\_t@{SPI\_Handle\_t}}
+\doxysubsubsection{\texorpdfstring{timeoutcount}{timeoutcount}}
+{\footnotesize\ttfamily uint16\+\_\+t SPI\+\_\+\+Handle\+\_\+t\+::timeoutcount}
+
+\mbox{\Hypertarget{structSPI__Handle__t_a189f040eb5a2985729adb4dc13f49660}\label{structSPI__Handle__t_a189f040eb5a2985729adb4dc13f49660}} 
+\index{SPI\_Handle\_t@{SPI\_Handle\_t}!TxXfercount@{TxXfercount}}
+\index{TxXfercount@{TxXfercount}!SPI\_Handle\_t@{SPI\_Handle\_t}}
+\doxysubsubsection{\texorpdfstring{TxXfercount}{TxXfercount}}
+{\footnotesize\ttfamily uint8\+\_\+t SPI\+\_\+\+Handle\+\_\+t\+::\+Tx\+Xfercount}
+
+\mbox{\Hypertarget{structSPI__Handle__t_a8b133d1eaa1f86a22f99c5b1104cf7ce}\label{structSPI__Handle__t_a8b133d1eaa1f86a22f99c5b1104cf7ce}} 
+\index{SPI\_Handle\_t@{SPI\_Handle\_t}!TxXfersize@{TxXfersize}}
+\index{TxXfersize@{TxXfersize}!SPI\_Handle\_t@{SPI\_Handle\_t}}
+\doxysubsubsection{\texorpdfstring{TxXfersize}{TxXfersize}}
+{\footnotesize\ttfamily uint8\+\_\+t SPI\+\_\+\+Handle\+\_\+t\+::\+Tx\+Xfersize}
+
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Drivers/\+BQ76942\+\_\+\+BMS/inc/\mbox{\hyperlink{BMS__SPI_8h}{BMS\+\_\+\+SPI.\+h}}\end{DoxyCompactItemize}

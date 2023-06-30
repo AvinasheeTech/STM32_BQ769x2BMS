@@ -1,0 +1,10 @@
+<map id="Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h" name="Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h">
+<area shape="rect" id="node1" title="Header file of TIM LL module." alt="" coords="386,5,569,61"/>
+<area shape="rect" id="node2" href="$main_8h.html" title="Header for main.c file. This file contains the common defines of the application." alt="" coords="415,109,539,136"/>
+<area shape="rect" id="node3" href="$BMS__SPI_8h.html" title="functions and structure related to SPI communication protocol" alt="" coords="212,184,380,225"/>
+<area shape="rect" id="node6" href="$main_8c.html" title="Main program body." alt="" coords="198,370,322,397"/>
+<area shape="rect" id="node8" href="$stm32f4xx__it_8c.html" title="Interrupt Service Routines." alt="" coords="515,191,693,218"/>
+<area shape="rect" id="node4" href="$BQ76942_8h.html" title="macros and function declarations of BQ769x2 BMS" alt="" coords="29,273,197,315"/>
+<area shape="rect" id="node7" href="$BMS__SPI_8c.html" title="SPI protocol handling source file." alt="" coords="272,273,440,315"/>
+<area shape="rect" id="node5" href="$BQ76942_8c.html" title="function implementation for handling BQ769x2 BMS features" alt="" coords="5,363,173,404"/>
+</map>

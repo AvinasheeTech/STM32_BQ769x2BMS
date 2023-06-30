@@ -1,0 +1,4 @@
+<map id="BQ769x2_ReadAllVoltages" name="BQ769x2_ReadAllVoltages">
+<area shape="rect" id="node1" title="helper function to read all voltage of the BMS system at once" alt="" coords="108,5,303,32"/>
+<area shape="rect" id="node2" href="$main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="The application entry point." alt="" coords="5,5,60,32"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Data Watchpoint and Trace (DWT)" name="Data Watchpoint and Trace (DWT)">
+<area shape="rect" id="node1" href="$group__CMSIS__TPI.html" title="Type definitions for the Trace Port Interface (TPI)" alt="" coords="424,37,572,77"/>
+<area shape="rect" id="node2" href="$group__CMSIS__SysTick.html" title="Type definitions for the System Timer Registers." alt="" coords="13,5,161,45"/>
+<area shape="rect" id="node3" title="Type definitions for the Data Watchpoint and Trace (DWT)" alt="" coords="217,37,376,77"/>
+<area shape="rect" id="node4" href="$group__CMSIS__ITM.html" title="Type definitions for the Instrumentation Trace Macrocell (ITM)" alt="" coords="5,69,169,109"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="Checksum" name="Checksum">
+<area shape="rect" id="node1" title="function to calculate the checksum when writing to a RAM register" alt="" coords="481,31,572,57"/>
+<area shape="rect" id="node2" href="$BQ76942_8h.html#acf1dad58d4936ffcf0cee7651f0318bb" title="function to write register based on data byte" alt="" coords="268,5,431,32"/>
+<area shape="rect" id="node5" href="$BQ76942_8h.html#a06cafb810bb5217262dedd7b3346eeab" title="function to handle sub commands of BQ769x2" alt="" coords="265,56,433,83"/>
+<area shape="rect" id="node3" href="$BQ76942_8h.html#a496ab6829b6a683f8462ec210835417d" title="function for initial setup of registers" alt="" coords="108,5,217,32"/>
+<area shape="rect" id="node4" href="$main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="The application entry point." alt="" coords="5,5,60,32"/>
+</map>

@@ -1,0 +1,185 @@
+\hypertarget{BMS__SPI_8h}{}\doxysection{Drivers/\+BQ76942\+\_\+\+BMS/inc/\+BMS\+\_\+\+SPI.h File Reference}
+\label{BMS__SPI_8h}\index{Drivers/BQ76942\_BMS/inc/BMS\_SPI.h@{Drivers/BQ76942\_BMS/inc/BMS\_SPI.h}}
+
+
+functions and structure related to SPI communication protocol  
+
+
+{\ttfamily \#include \char`\"{}main.\+h\char`\"{}}\newline
+Include dependency graph for BMS\+\_\+\+SPI.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{BMS__SPI_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{BMS__SPI_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structSPI__Handle__t}{SPI\+\_\+\+Handle\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em SPI structure for handling data. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{group__SPI__Error__Code_gaf2ffc2b3aa4077d0a6a028206654e545}{SPI\+\_\+\+ERROR\+\_\+\+NONE}}~((uint32\+\_\+t)0x00000000)
+\item 
+\#define \mbox{\hyperlink{group__SPI__Error__Code_gab3c8d5f82abee03878fc12222a19f7f3}{SPI\+\_\+\+ERROR\+\_\+\+MODF}}~((uint32\+\_\+t)0x00000001)
+\item 
+\#define \mbox{\hyperlink{group__SPI__Error__Code_ga6d3b9077cbdf86026016e8dbc3f1fba9}{SPI\+\_\+\+ERROR\+\_\+\+CRC}}~((uint32\+\_\+t)0x00000002)
+\item 
+\#define \mbox{\hyperlink{group__SPI__Error__Code_ga6a94e0e96d73d285259f649b7a2a682d}{SPI\+\_\+\+ERROR\+\_\+\+OVR}}~((uint32\+\_\+t)0x00000004)
+\item 
+\#define \mbox{\hyperlink{group__SPI__Error__Code_ga8792db70a2138d95b726e9465cafd72e}{SPI\+\_\+\+ERROR\+\_\+\+FRE}}~((uint32\+\_\+t)0x00000008)
+\item 
+\#define \mbox{\hyperlink{group__SPI__Error__Code_gaecb08d644d2b4ef6c84d290589107d15}{SPI\+\_\+\+ERROR\+\_\+\+DMA}}~((uint32\+\_\+t)0x00000010)
+\item 
+\#define \mbox{\hyperlink{group__SPI__Error__Code_ga164d64b7266305e59e135d3edf43d7f0}{SPI\+\_\+\+ERROR\+\_\+\+FLAG}}~((uint32\+\_\+t)0x00000010)
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{BMS__SPI_8h_af91785541fc03cda495a927e966241f6}{SPI\+\_\+\+Write\+Reg}} (uint8\+\_\+t reg\+\_\+addr, uint8\+\_\+t $\ast$reg\+\_\+data, uint8\+\_\+t count)
+\begin{DoxyCompactList}\small\item\em function to write BQ769x2 registers over SPI \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{BMS__SPI_8h_a832a654e37b91f8056181250df3defeb}{SPI\+\_\+\+Read\+Reg}} (uint8\+\_\+t reg\+\_\+addr, uint8\+\_\+t $\ast$reg\+\_\+data, uint8\+\_\+t count)
+\begin{DoxyCompactList}\small\item\em function to read BQ769x2 registers over SPI \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{BMS__SPI_8h_a372b502740f2a42cc973254b3efbbf80}{SPI\+\_\+\+Transmit\+Recieve}} (\mbox{\hyperlink{structSPI__Handle__t}{SPI\+\_\+\+Handle\+\_\+t}} $\ast$\mbox{\hyperlink{BMS__SPI_8c_a44a30cb070eb4b7781392f21fa9f3407}{h\+SPIx}}, uint8\+\_\+t $\ast$Tx\+\_\+data, uint8\+\_\+t $\ast$\mbox{\hyperlink{BMS__SPI_8c_acfb6f4e9084fdf51a563474b16655f6d}{Rx\+\_\+data}}, uint8\+\_\+t count)
+\begin{DoxyCompactList}\small\item\em function to perform transmit and recieve operations over SPI protocol \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+functions and structure related to SPI communication protocol 
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{BMS__SPI_8h_a832a654e37b91f8056181250df3defeb}\label{BMS__SPI_8h_a832a654e37b91f8056181250df3defeb}} 
+\index{BMS\_SPI.h@{BMS\_SPI.h}!SPI\_ReadReg@{SPI\_ReadReg}}
+\index{SPI\_ReadReg@{SPI\_ReadReg}!BMS\_SPI.h@{BMS\_SPI.h}}
+\doxysubsubsection{\texorpdfstring{SPI\_ReadReg()}{SPI\_ReadReg()}}
+{\footnotesize\ttfamily void SPI\+\_\+\+Read\+Reg (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{reg\+\_\+addr,  }\item[{uint8\+\_\+t $\ast$}]{reg\+\_\+data,  }\item[{uint8\+\_\+t}]{count }\end{DoxyParamCaption})}
+
+
+
+function to read BQ769x2 registers over SPI 
+
+
+\begin{DoxyParams}{Parameters}
+{\em reg\+\_\+addr} & address of register to read from \\
+\hline
+{\em reg\+\_\+data} & pointer to data to store read bytes \\
+\hline
+{\em count} & number of data bytes to be read \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+\begin{DoxyNote}{Note}
+includes retries in case HFO has not started or if wait time is needed. See BQ76952 Software Development Guide for examples 
+\end{DoxyNote}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{BMS__SPI_8h_a832a654e37b91f8056181250df3defeb_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{BMS__SPI_8h_a832a654e37b91f8056181250df3defeb_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{BMS__SPI_8h_a372b502740f2a42cc973254b3efbbf80}\label{BMS__SPI_8h_a372b502740f2a42cc973254b3efbbf80}} 
+\index{BMS\_SPI.h@{BMS\_SPI.h}!SPI\_TransmitRecieve@{SPI\_TransmitRecieve}}
+\index{SPI\_TransmitRecieve@{SPI\_TransmitRecieve}!BMS\_SPI.h@{BMS\_SPI.h}}
+\doxysubsubsection{\texorpdfstring{SPI\_TransmitRecieve()}{SPI\_TransmitRecieve()}}
+{\footnotesize\ttfamily void SPI\+\_\+\+Transmit\+Recieve (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structSPI__Handle__t}{SPI\+\_\+\+Handle\+\_\+t}} $\ast$}]{h\+SPIx,  }\item[{uint8\+\_\+t $\ast$}]{Tx\+\_\+data,  }\item[{uint8\+\_\+t $\ast$}]{Rx\+\_\+data,  }\item[{uint8\+\_\+t}]{count }\end{DoxyParamCaption})}
+
+
+
+function to perform transmit and recieve operations over SPI protocol 
+
+
+\begin{DoxyParams}{Parameters}
+{\em h\+SPIx} & pointer to SPI\+\_\+handle\+\_\+t structure \\
+\hline
+{\em Tx\+\_\+data} & pointer to data to be trasnmitted \\
+\hline
+{\em Rx\+\_\+data} & pointer to data to be received \\
+\hline
+{\em count} & number of data bytes to be sent and received \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=298pt]{BMS__SPI_8h_a372b502740f2a42cc973254b3efbbf80_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{BMS__SPI_8h_a372b502740f2a42cc973254b3efbbf80_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{BMS__SPI_8h_af91785541fc03cda495a927e966241f6}\label{BMS__SPI_8h_af91785541fc03cda495a927e966241f6}} 
+\index{BMS\_SPI.h@{BMS\_SPI.h}!SPI\_WriteReg@{SPI\_WriteReg}}
+\index{SPI\_WriteReg@{SPI\_WriteReg}!BMS\_SPI.h@{BMS\_SPI.h}}
+\doxysubsubsection{\texorpdfstring{SPI\_WriteReg()}{SPI\_WriteReg()}}
+{\footnotesize\ttfamily void SPI\+\_\+\+Write\+Reg (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{reg\+\_\+addr,  }\item[{uint8\+\_\+t $\ast$}]{reg\+\_\+data,  }\item[{uint8\+\_\+t}]{count }\end{DoxyParamCaption})}
+
+
+
+function to write BQ769x2 registers over SPI 
+
+
+\begin{DoxyParams}{Parameters}
+{\em reg\+\_\+addr} & address of register to be written \\
+\hline
+{\em reg\+\_\+data} & pointer to data which is to be written \\
+\hline
+{\em count} & number of data bytes to be written \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+\begin{DoxyNote}{Note}
+includes retries in case HFO has not started or if wait time is needed. See BQ76952 Software Development Guide for examples 
+\end{DoxyNote}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{BMS__SPI_8h_af91785541fc03cda495a927e966241f6_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{BMS__SPI_8h_af91785541fc03cda495a927e966241f6_icgraph}
+\end{center}
+\end{figure}

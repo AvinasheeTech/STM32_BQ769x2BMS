@@ -1,0 +1,5 @@
+<map id="handle_command_only_subcommands" name="handle_command_only_subcommands">
+<area shape="rect" id="node1" title="function to handle command only sub commands of BQ769x2" alt="" coords="265,23,439,65"/>
+<area shape="rect" id="node2" href="$BQ76942_8h.html#a496ab6829b6a683f8462ec210835417d" title="function for initial setup of registers" alt="" coords="108,5,217,32"/>
+<area shape="rect" id="node3" href="$main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="The application entry point." alt="" coords="5,31,60,57"/>
+</map>

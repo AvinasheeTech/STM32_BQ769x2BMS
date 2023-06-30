@@ -1,0 +1,14 @@
+<map id="delay_ms" name="delay_ms">
+<area shape="rect" id="node1" title="function to provide delay in milliseconds specified by user" alt="" coords="1169,169,1255,196"/>
+<area shape="rect" id="node2" href="$BQ76942_8h.html#acf1dad58d4936ffcf0cee7651f0318bb" title="function to write register based on data byte" alt="" coords="583,71,745,97"/>
+<area shape="rect" id="node4" href="$main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="The application entry point." alt="" coords="5,104,60,131"/>
+<area shape="rect" id="node5" href="$BQ76942_8h.html#abb5199cea92fe91ebb040685b17cf9dc" title="function to handle command only sub commands of BQ769x2" alt="" coords="577,122,751,163"/>
+<area shape="rect" id="node6" href="$BQ76942_8h.html#aa188ab5f76cb5d111b4a658c1f9f0e50" title="function to handle direct commands of BQ769x2" alt="" coords="569,229,759,256"/>
+<area shape="rect" id="node9" href="$BQ76942_8h.html#a06cafb810bb5217262dedd7b3346eeab" title="function to handle sub commands of BQ769x2" alt="" coords="580,296,748,323"/>
+<area shape="rect" id="node10" href="$BMS__SPI_8h.html#a832a654e37b91f8056181250df3defeb" title="function to read BQ769x2 registers over SPI" alt="" coords="808,296,915,323"/>
+<area shape="rect" id="node11" href="$BMS__SPI_8h.html#a372b502740f2a42cc973254b3efbbf80" title="function to perform transmit and recieve operations over SPI protocol" alt="" coords="964,195,1121,221"/>
+<area shape="rect" id="node12" href="$BMS__SPI_8h.html#af91785541fc03cda495a927e966241f6" title="function to write BQ769x2 registers over SPI" alt="" coords="807,156,916,183"/>
+<area shape="rect" id="node3" href="$BQ76942_8h.html#a496ab6829b6a683f8462ec210835417d" title="function for initial setup of registers" alt="" coords="381,79,491,105"/>
+<area shape="rect" id="node7" href="$BQ76942_8h.html#a88a19fbf00a4fa2f3cf736ffe12bd19d" title="function to read a specific cell voltage or stack / pack / LD voltage" alt="" coords="351,204,521,231"/>
+<area shape="rect" id="node8" href="$BQ76942_8h.html#aac5c8c01f244dabd913a94802f04f356" title="helper function to read all voltage of the BMS system at once" alt="" coords="108,187,303,213"/>
+</map>

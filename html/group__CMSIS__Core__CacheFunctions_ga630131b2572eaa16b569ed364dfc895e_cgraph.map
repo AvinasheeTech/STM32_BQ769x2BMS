@@ -1,0 +1,5 @@
+<map id="SCB_CleanInvalidateDCache_by_Addr" name="SCB_CleanInvalidateDCache_by_Addr">
+<area shape="rect" id="node1" title="D&#45;Cache Clean and Invalidate by address." alt="" coords="5,23,212,65"/>
+<area shape="rect" id="node2" href="$group__CMSIS__Core__InstructionInterface.html#ga7fe277f5385d23b9c44b2cbda1577ce9" title="Data Synchronization Barrier." alt="" coords="260,5,323,32"/>
+<area shape="rect" id="node3" href="$group__CMSIS__Core__InstructionInterface.html#gae26c2b3961e702aeabc24d4984ebd369" title="Instruction Synchronization Barrier." alt="" coords="263,56,320,83"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="handle_direct_commands" name="handle_direct_commands">
+<area shape="rect" id="node1" title="function to handle direct commands of BQ769x2" alt="" coords="569,5,759,32"/>
+<area shape="rect" id="node2" href="$BQ76942_8h.html#a88a19fbf00a4fa2f3cf736ffe12bd19d" title="function to read a specific cell voltage or stack / pack / LD voltage" alt="" coords="351,5,521,32"/>
+<area shape="rect" id="node3" href="$BQ76942_8h.html#aac5c8c01f244dabd913a94802f04f356" title="helper function to read all voltage of the BMS system at once" alt="" coords="108,5,303,32"/>
+<area shape="rect" id="node4" href="$main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="The application entry point." alt="" coords="5,5,60,32"/>
+</map>

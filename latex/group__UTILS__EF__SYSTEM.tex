@@ -1,0 +1,168 @@
+\hypertarget{group__UTILS__EF__SYSTEM}{}\doxysection{SYSTEM}
+\label{group__UTILS__EF__SYSTEM}\index{SYSTEM@{SYSTEM}}
+
+
+System Configuration functions.  
+
+
+Collaboration diagram for SYSTEM\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=312pt]{group__UTILS__EF__SYSTEM}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group__UTILS__EF__SYSTEM_ga5af902d59c4c2d9dc5e189df0bc71ecd}{LL\+\_\+\+Set\+System\+Core\+Clock}} (uint32\+\_\+t HCLKFrequency)
+\begin{DoxyCompactList}\small\item\em This function sets directly System\+Core\+Clock CMSIS variable. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{group__Exported__types_ga8333b96c67f83cba354b3407fcbb6ee8}{Error\+Status}} \mbox{\hyperlink{group__UTILS__EF__SYSTEM_ga74f71dc4b93a3b99e5f9e042e85e2ce5}{LL\+\_\+\+Set\+Flash\+Latency}} (uint32\+\_\+t HCLK\+\_\+\+Frequency)
+\begin{DoxyCompactList}\small\item\em Update number of Flash wait states in line with new frequency and current voltage range. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{group__Exported__types_ga8333b96c67f83cba354b3407fcbb6ee8}{Error\+Status}} \mbox{\hyperlink{group__UTILS__EF__SYSTEM_ga7ada5e4210f6ef80ef9f55bf9dd048c6}{LL\+\_\+\+PLL\+\_\+\+Config\+System\+Clock\+\_\+\+HSI}} (\mbox{\hyperlink{structLL__UTILS__PLLInitTypeDef}{LL\+\_\+\+UTILS\+\_\+\+PLLInit\+Type\+Def}} $\ast$UTILS\+\_\+\+PLLInit\+Struct, \mbox{\hyperlink{structLL__UTILS__ClkInitTypeDef}{LL\+\_\+\+UTILS\+\_\+\+Clk\+Init\+Type\+Def}} $\ast$UTILS\+\_\+\+Clk\+Init\+Struct)
+\begin{DoxyCompactList}\small\item\em This function configures system clock at maximum frequency with HSI as clock source of the PLL. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{group__Exported__types_ga8333b96c67f83cba354b3407fcbb6ee8}{Error\+Status}} \mbox{\hyperlink{group__UTILS__EF__SYSTEM_gaf6c8553d03464d4646b63321b97d25e2}{LL\+\_\+\+PLL\+\_\+\+Config\+System\+Clock\+\_\+\+HSE}} (uint32\+\_\+t HSEFrequency, uint32\+\_\+t HSEBypass, \mbox{\hyperlink{structLL__UTILS__PLLInitTypeDef}{LL\+\_\+\+UTILS\+\_\+\+PLLInit\+Type\+Def}} $\ast$UTILS\+\_\+\+PLLInit\+Struct, \mbox{\hyperlink{structLL__UTILS__ClkInitTypeDef}{LL\+\_\+\+UTILS\+\_\+\+Clk\+Init\+Type\+Def}} $\ast$UTILS\+\_\+\+Clk\+Init\+Struct)
+\begin{DoxyCompactList}\small\item\em This function configures system clock with HSE as clock source of the PLL. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+System Configuration functions. 
+
+\begin{DoxyVerb}===============================================================================
+          ##### System Configuration functions #####
+===============================================================================
+   [..]
+        System, AHB and APB buses clocks configuration
+
+        (+) The maximum frequency of the SYSCLK, HCLK, PCLK1 and PCLK2 is 180000000 Hz.\end{DoxyVerb}
+ 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{group__UTILS__EF__SYSTEM_gaf6c8553d03464d4646b63321b97d25e2}\label{group__UTILS__EF__SYSTEM_gaf6c8553d03464d4646b63321b97d25e2}} 
+\index{SYSTEM@{SYSTEM}!LL\_PLL\_ConfigSystemClock\_HSE@{LL\_PLL\_ConfigSystemClock\_HSE}}
+\index{LL\_PLL\_ConfigSystemClock\_HSE@{LL\_PLL\_ConfigSystemClock\_HSE}!SYSTEM@{SYSTEM}}
+\doxysubsubsection{\texorpdfstring{LL\_PLL\_ConfigSystemClock\_HSE()}{LL\_PLL\_ConfigSystemClock\_HSE()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{group__Exported__types_ga8333b96c67f83cba354b3407fcbb6ee8}{Error\+Status}} LL\+\_\+\+PLL\+\_\+\+Config\+System\+Clock\+\_\+\+HSE (\begin{DoxyParamCaption}\item[{uint32\+\_\+t}]{HSEFrequency,  }\item[{uint32\+\_\+t}]{HSEBypass,  }\item[{\mbox{\hyperlink{structLL__UTILS__PLLInitTypeDef}{LL\+\_\+\+UTILS\+\_\+\+PLLInit\+Type\+Def}} $\ast$}]{UTILS\+\_\+\+PLLInit\+Struct,  }\item[{\mbox{\hyperlink{structLL__UTILS__ClkInitTypeDef}{LL\+\_\+\+UTILS\+\_\+\+Clk\+Init\+Type\+Def}} $\ast$}]{UTILS\+\_\+\+Clk\+Init\+Struct }\end{DoxyParamCaption})}
+
+
+
+This function configures system clock with HSE as clock source of the PLL. 
+
+\begin{DoxyNote}{Note}
+The application need to ensure that PLL is disabled.
+\begin{DoxyItemize}
+\item PLL output frequency = (((HSI frequency / PLLM) $\ast$ PLLN) / PLLP)
+\item PLLM\+: ensure that the VCO input frequency ranges from \mbox{\hyperlink{group__Exported__macros_ga288d68c2604cea8548eccdef3873923f}{RCC\+\_\+\+PLLVCO\+\_\+\+INPUT\+\_\+\+MIN}} to \mbox{\hyperlink{group__Exported__macros_gad3fd37dbfa74739a3c698ab4755fa27e}{RCC\+\_\+\+PLLVCO\+\_\+\+INPUT\+\_\+\+MAX}} (PLLVCO\+\_\+input = HSI frequency / PLLM)
+\item PLLN\+: ensure that the VCO output frequency is between \mbox{\hyperlink{group__Exported__macros_ga85746dffdc6d015f5142d7e16489ca84}{RCC\+\_\+\+PLLVCO\+\_\+\+OUTPUT\+\_\+\+MIN}} and \mbox{\hyperlink{group__Exported__macros_gaba6ddae0375763847f8dc3e91173d714}{RCC\+\_\+\+PLLVCO\+\_\+\+OUTPUT\+\_\+\+MAX}} (PLLVCO\+\_\+output = PLLVCO\+\_\+input $\ast$ PLLN)
+\item PLLP\+: ensure that max frequency at 180000000 Hz is reach (PLLVCO\+\_\+output / PLLP) 
+\end{DoxyItemize}
+\end{DoxyNote}
+
+\begin{DoxyParams}{Parameters}
+{\em HSEFrequency} & Value between Min\+\_\+\+Data = 4000000 and Max\+\_\+\+Data = 26000000 \\
+\hline
+{\em HSEBypass} & This parameter can be one of the following values\+: \begin{DoxyItemize}
+\item \mbox{\hyperlink{group__UTILS__EC__HSE__BYPASS_ga2053b398a3829ad616af6f1a732dbdd4}{LL\+\_\+\+UTILS\+\_\+\+HSEBYPASS\+\_\+\+ON}} \item \mbox{\hyperlink{group__UTILS__EC__HSE__BYPASS_ga4aab0968739934c6560805bcf222e1fe}{LL\+\_\+\+UTILS\+\_\+\+HSEBYPASS\+\_\+\+OFF}} \end{DoxyItemize}
+\\
+\hline
+{\em UTILS\+\_\+\+PLLInit\+Struct} & pointer to a \mbox{\hyperlink{structLL__UTILS__PLLInitTypeDef}{LL\+\_\+\+UTILS\+\_\+\+PLLInit\+Type\+Def}} structure that contains the configuration information for the PLL. \\
+\hline
+{\em UTILS\+\_\+\+Clk\+Init\+Struct} & pointer to a \mbox{\hyperlink{structLL__UTILS__ClkInitTypeDef}{LL\+\_\+\+UTILS\+\_\+\+Clk\+Init\+Type\+Def}} structure that contains the configuration information for the BUS prescalers. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em An} & Error\+Status enumeration value\+:
+\begin{DoxyItemize}
+\item SUCCESS\+: Max frequency configuration done
+\item ERROR\+: Max frequency configuration not done 
+\end{DoxyItemize}\\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group__UTILS__EF__SYSTEM_ga7ada5e4210f6ef80ef9f55bf9dd048c6}\label{group__UTILS__EF__SYSTEM_ga7ada5e4210f6ef80ef9f55bf9dd048c6}} 
+\index{SYSTEM@{SYSTEM}!LL\_PLL\_ConfigSystemClock\_HSI@{LL\_PLL\_ConfigSystemClock\_HSI}}
+\index{LL\_PLL\_ConfigSystemClock\_HSI@{LL\_PLL\_ConfigSystemClock\_HSI}!SYSTEM@{SYSTEM}}
+\doxysubsubsection{\texorpdfstring{LL\_PLL\_ConfigSystemClock\_HSI()}{LL\_PLL\_ConfigSystemClock\_HSI()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{group__Exported__types_ga8333b96c67f83cba354b3407fcbb6ee8}{Error\+Status}} LL\+\_\+\+PLL\+\_\+\+Config\+System\+Clock\+\_\+\+HSI (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structLL__UTILS__PLLInitTypeDef}{LL\+\_\+\+UTILS\+\_\+\+PLLInit\+Type\+Def}} $\ast$}]{UTILS\+\_\+\+PLLInit\+Struct,  }\item[{\mbox{\hyperlink{structLL__UTILS__ClkInitTypeDef}{LL\+\_\+\+UTILS\+\_\+\+Clk\+Init\+Type\+Def}} $\ast$}]{UTILS\+\_\+\+Clk\+Init\+Struct }\end{DoxyParamCaption})}
+
+
+
+This function configures system clock at maximum frequency with HSI as clock source of the PLL. 
+
+\begin{DoxyNote}{Note}
+The application need to ensure that PLL is disabled. 
+
+Function is based on the following formula\+:
+\begin{DoxyItemize}
+\item PLL output frequency = (((HSI frequency / PLLM) $\ast$ PLLN) / PLLP)
+\item PLLM\+: ensure that the VCO input frequency ranges from \mbox{\hyperlink{group__Exported__macros_ga288d68c2604cea8548eccdef3873923f}{RCC\+\_\+\+PLLVCO\+\_\+\+INPUT\+\_\+\+MIN}} to \mbox{\hyperlink{group__Exported__macros_gad3fd37dbfa74739a3c698ab4755fa27e}{RCC\+\_\+\+PLLVCO\+\_\+\+INPUT\+\_\+\+MAX}} (PLLVCO\+\_\+input = HSI frequency / PLLM)
+\item PLLN\+: ensure that the VCO output frequency is between \mbox{\hyperlink{group__Exported__macros_ga85746dffdc6d015f5142d7e16489ca84}{RCC\+\_\+\+PLLVCO\+\_\+\+OUTPUT\+\_\+\+MIN}} and \mbox{\hyperlink{group__Exported__macros_gaba6ddae0375763847f8dc3e91173d714}{RCC\+\_\+\+PLLVCO\+\_\+\+OUTPUT\+\_\+\+MAX}} (PLLVCO\+\_\+output = PLLVCO\+\_\+input $\ast$ PLLN)
+\item PLLP\+: ensure that max frequency at 180000000 Hz is reach (PLLVCO\+\_\+output / PLLP) 
+\end{DoxyItemize}
+\end{DoxyNote}
+
+\begin{DoxyParams}{Parameters}
+{\em UTILS\+\_\+\+PLLInit\+Struct} & pointer to a \mbox{\hyperlink{structLL__UTILS__PLLInitTypeDef}{LL\+\_\+\+UTILS\+\_\+\+PLLInit\+Type\+Def}} structure that contains the configuration information for the PLL. \\
+\hline
+{\em UTILS\+\_\+\+Clk\+Init\+Struct} & pointer to a \mbox{\hyperlink{structLL__UTILS__ClkInitTypeDef}{LL\+\_\+\+UTILS\+\_\+\+Clk\+Init\+Type\+Def}} structure that contains the configuration information for the BUS prescalers. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em An} & Error\+Status enumeration value\+:
+\begin{DoxyItemize}
+\item SUCCESS\+: Max frequency configuration done
+\item ERROR\+: Max frequency configuration not done 
+\end{DoxyItemize}\\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group__UTILS__EF__SYSTEM_ga74f71dc4b93a3b99e5f9e042e85e2ce5}\label{group__UTILS__EF__SYSTEM_ga74f71dc4b93a3b99e5f9e042e85e2ce5}} 
+\index{SYSTEM@{SYSTEM}!LL\_SetFlashLatency@{LL\_SetFlashLatency}}
+\index{LL\_SetFlashLatency@{LL\_SetFlashLatency}!SYSTEM@{SYSTEM}}
+\doxysubsubsection{\texorpdfstring{LL\_SetFlashLatency()}{LL\_SetFlashLatency()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{group__Exported__types_ga8333b96c67f83cba354b3407fcbb6ee8}{Error\+Status}} LL\+\_\+\+Set\+Flash\+Latency (\begin{DoxyParamCaption}\item[{uint32\+\_\+t}]{HCLK\+\_\+\+Frequency }\end{DoxyParamCaption})}
+
+
+
+Update number of Flash wait states in line with new frequency and current voltage range. 
+
+\begin{DoxyNote}{Note}
+This Function support ONLY devices with supply voltage (voltage range) between 2.\+7V and 3.\+6V 
+\end{DoxyNote}
+
+\begin{DoxyParams}{Parameters}
+{\em HCLK\+\_\+\+Frequency} & HCLK frequency \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em An} & Error\+Status enumeration value\+:
+\begin{DoxyItemize}
+\item SUCCESS\+: Latency has been modified
+\item ERROR\+: Latency cannot be modified 
+\end{DoxyItemize}\\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group__UTILS__EF__SYSTEM_ga5af902d59c4c2d9dc5e189df0bc71ecd}\label{group__UTILS__EF__SYSTEM_ga5af902d59c4c2d9dc5e189df0bc71ecd}} 
+\index{SYSTEM@{SYSTEM}!LL\_SetSystemCoreClock@{LL\_SetSystemCoreClock}}
+\index{LL\_SetSystemCoreClock@{LL\_SetSystemCoreClock}!SYSTEM@{SYSTEM}}
+\doxysubsubsection{\texorpdfstring{LL\_SetSystemCoreClock()}{LL\_SetSystemCoreClock()}}
+{\footnotesize\ttfamily void LL\+\_\+\+Set\+System\+Core\+Clock (\begin{DoxyParamCaption}\item[{uint32\+\_\+t}]{HCLKFrequency }\end{DoxyParamCaption})}
+
+
+
+This function sets directly System\+Core\+Clock CMSIS variable. 
+
+\begin{DoxyNote}{Note}
+Variable can be calculated also through System\+Core\+Clock\+Update function. 
+\end{DoxyNote}
+
+\begin{DoxyParams}{Parameters}
+{\em HCLKFrequency} & HCLK frequency in Hz (can be calculated thanks to RCC helper macro) \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}

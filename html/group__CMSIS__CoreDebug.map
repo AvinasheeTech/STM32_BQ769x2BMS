@@ -1,0 +1,6 @@
+<map id="Core Debug Registers (CoreDebug)" name="Core Debug Registers (CoreDebug)">
+<area shape="rect" id="node1" href="$group__CMSIS__TPI.html" title="Type definitions for the Trace Port Interface (TPI)" alt="" coords="5,5,153,45"/>
+<area shape="rect" id="node2" title="Type definitions for the Core Debug Registers." alt="" coords="201,37,364,77"/>
+<area shape="rect" id="node3" href="$group__CMSIS__core__bitfield.html" title="Macros for use with bit field definitions (xxx_Pos, xxx_Msk)." alt="" coords="412,37,571,77"/>
+<area shape="rect" id="node4" href="$group__CMSIS__FPU.html" title="Type definitions for the Floating Point Unit (FPU)" alt="" coords="8,69,151,109"/>
+</map>

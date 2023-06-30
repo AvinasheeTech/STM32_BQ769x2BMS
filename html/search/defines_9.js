@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['ld1_5fgpio_5fport_16989',['LD1_GPIO_Port',['../main_8h.html#a3f6e18ed6195e2cc7716cc40013791ac',1,'main.h']]],
+  ['ld1_5fpin_16990',['LD1_Pin',['../main_8h.html#a6eff34015a2021110f6c96c0e1450e92',1,'main.h']]],
+  ['ld2_5fgpio_5fport_16991',['LD2_GPIO_Port',['../main_8h.html#a5aff6ddf7fe557e53b048115ad322aa0',1,'main.h']]],
+  ['ld2_5fpin_16992',['LD2_Pin',['../main_8h.html#af17a94dd613cff35c699b06c7c6a2820',1,'main.h']]],
+  ['ld3_5fgpio_5fport_16993',['LD3_GPIO_Port',['../main_8h.html#ae851c2d6146e6d4fac9f4a9983f5cf1f',1,'main.h']]],
+  ['ld3_5fpin_16994',['LD3_Pin',['../main_8h.html#a71154fae0eacbdf882bd1481164f0652',1,'main.h']]],
+  ['ldgain_16995',['LDGain',['../BQ76942_8h.html#a87044439870fcf4a0f7435f1620565ba',1,'BQ76942.h']]],
+  ['ldpinvoltage_16996',['LDPinVoltage',['../BQ76942_8h.html#ad4471aca6b1fba197cb00ea772b028fd',1,'BQ76942.h']]],
+  ['lfofdelay_16997',['LFOFDelay',['../BQ76942_8h.html#a800468a0590eaba9d2f9d59f9b2bbae6',1,'BQ76942.h']]],
+  ['load_5fdetect_5foff_16998',['LOAD_DETECT_OFF',['../BQ76942_8h.html#a8f47b3472b40718dce204d4bd5bd4996',1,'BQ76942.h']]],
+  ['load_5fdetect_5fon_16999',['LOAD_DETECT_ON',['../BQ76942_8h.html#a79ae3a59dcb0f070c502c7709897bbcd',1,'BQ76942.h']]],
+  ['load_5fdetect_5frestart_17000',['LOAD_DETECT_RESTART',['../BQ76942_8h.html#aaf42460f1727f89c0ec76b69bf3dba3d',1,'BQ76942.h']]],
+  ['loaddetectactivetime_17001',['LoadDetectActiveTime',['../BQ76942_8h.html#a383b5a376bc86502afb403bb91533ce7',1,'BQ76942.h']]],
+  ['loaddetectretrydelay_17002',['LoadDetectRetryDelay',['../BQ76942_8h.html#a9d55265124c7ca6e9362d5110cce96a8',1,'BQ76942.h']]],
+  ['loaddetecttimeout_17003',['LoadDetectTimeout',['../BQ76942_8h.html#ad0652aa4792fc834c188ed3b374be49a',1,'BQ76942.h']]],
+  ['lowvshutdowndelay_17004',['LowVShutdownDelay',['../BQ76942_8h.html#aab599d210c558e600c8cb69e7a33e939',1,'BQ76942.h']]]
+];

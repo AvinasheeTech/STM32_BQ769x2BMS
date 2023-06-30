@@ -1,0 +1,23 @@
+<map id="Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h" name="Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+<area shape="rect" id="node1" title="CMSIS STM32F4xx Device Peripheral Access Layer Header File." alt="" coords="1146,5,1319,61"/>
+<area shape="rect" id="node2" href="$stm32f4xx__ll__bus_8h.html" title="Header file of BUS LL module." alt="" coords="1245,109,1428,165"/>
+<area shape="rect" id="node10" href="$stm32f4xx__ll__cortex_8h.html" title="Header file of CORTEX LL module." alt="" coords="5,109,188,165"/>
+<area shape="rect" id="node11" href="$stm32f4xx__ll__dma_8h.html" title="Header file of DMA LL module." alt="" coords="212,109,395,165"/>
+<area shape="rect" id="node12" href="$stm32f4xx__ll__exti_8h.html" title="Header file of EXTI LL module." alt="" coords="419,109,601,165"/>
+<area shape="rect" id="node13" href="$stm32f4xx__ll__gpio_8h.html" title="Header file of GPIO LL module." alt="" coords="625,109,808,165"/>
+<area shape="rect" id="node14" href="$stm32f4xx__ll__pwr_8h.html" title="Header file of PWR LL module." alt="" coords="1865,109,2048,165"/>
+<area shape="rect" id="node16" href="$stm32f4xx__ll__rcc_8h.html" title="Header file of RCC LL module." alt="" coords="2072,109,2255,165"/>
+<area shape="rect" id="node17" href="$stm32f4xx__ll__spi_8h.html" title="Header file of SPI LL module." alt="" coords="832,109,1015,165"/>
+<area shape="rect" id="node18" href="$stm32f4xx__ll__system_8h.html" title="Header file of SYSTEM LL module." alt="" coords="1452,109,1635,165"/>
+<area shape="rect" id="node19" href="$stm32f4xx__ll__tim_8h.html" title="Header file of TIM LL module." alt="" coords="1039,109,1221,165"/>
+<area shape="rect" id="node20" href="$stm32f4xx__ll__utils_8h.html" title="Header file of UTILS LL module." alt="" coords="1659,109,1841,165"/>
+<area shape="rect" id="node21" href="$system__stm32f4xx_8c.html" title="CMSIS Cortex&#45;M4 Device Peripheral Access Layer System Source File." alt="" coords="2279,124,2495,151"/>
+<area shape="rect" id="node3" href="$main_8h.html" title="Header for main.c file. This file contains the common defines of the application." alt="" coords="1068,228,1192,255"/>
+<area shape="rect" id="node4" href="$BMS__SPI_8h.html" title="functions and structure related to SPI communication protocol" alt="" coords="1046,317,1214,359"/>
+<area shape="rect" id="node7" href="$main_8c.html" title="Main program body." alt="" coords="947,503,1071,530"/>
+<area shape="rect" id="node9" href="$stm32f4xx__it_8c.html" title="Interrupt Service Routines." alt="" coords="1239,325,1416,351"/>
+<area shape="rect" id="node5" href="$BQ76942_8h.html" title="macros and function declarations of BQ769x2 BMS" alt="" coords="1071,407,1239,448"/>
+<area shape="rect" id="node8" href="$BMS__SPI_8c.html" title="SPI protocol handling source file." alt="" coords="1263,407,1431,448"/>
+<area shape="rect" id="node6" href="$BQ76942_8c.html" title="function implementation for handling BQ769x2 BMS features" alt="" coords="1095,496,1263,537"/>
+<area shape="rect" id="node15" href="$stm32f4xx__ll__utils_8c.html" title="UTILS LL module driver." alt="" coords="1761,213,1944,269"/>
+</map>
