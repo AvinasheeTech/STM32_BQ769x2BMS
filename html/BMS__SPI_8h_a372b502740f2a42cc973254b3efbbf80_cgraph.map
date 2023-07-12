@@ -1,4 +1,0 @@
-<map id="SPI_TransmitRecieve" name="SPI_TransmitRecieve">
-<area shape="rect" id="node1" title="function to perform transmit and recieve operations over SPI protocol" alt="" coords="5,5,163,32"/>
-<area shape="rect" id="node2" href="$main_8h.html#ab7cce8122024d7ba47bf10f434956de4" title="function to provide delay in milliseconds specified by user" alt="" coords="211,5,296,32"/>
-</map>

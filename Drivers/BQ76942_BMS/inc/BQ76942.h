@@ -422,6 +422,8 @@
 
 uint16_t BQ769x2_ReadVoltage(uint8_t command);
 void BQ769x2_ReadAllVoltages(void);
+void BQ769x2_ReadCellBalance(void);
+void BQ769x2_WriteCellBalance(uint16_t data);
 unsigned char Checksum(unsigned char *ptr, unsigned char len);
 void BQ769x2_SetRegister(uint16_t reg_addr, uint32_t reg_data, uint8_t datalen);
 void handle_direct_commands(uint8_t command, uint16_t data, uint8_t type);

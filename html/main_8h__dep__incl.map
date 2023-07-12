@@ -1,9 +1,0 @@
-<map id="Core/Inc/main.h" name="Core/Inc/main.h">
-<area shape="rect" id="node1" title="Header for main.c file. This file contains the common defines of the application." alt="" coords="415,5,539,32"/>
-<area shape="rect" id="node2" href="$BMS__SPI_8h.html" title="functions and structure related to SPI communication protocol" alt="" coords="212,80,380,121"/>
-<area shape="rect" id="node5" href="$main_8c.html" title="Main program body." alt="" coords="198,266,322,293"/>
-<area shape="rect" id="node7" href="$stm32f4xx__it_8c.html" title="Interrupt Service Routines." alt="" coords="515,87,693,114"/>
-<area shape="rect" id="node3" href="$BQ76942_8h.html" title="macros and function declarations of BQ769x2 BMS" alt="" coords="29,169,197,211"/>
-<area shape="rect" id="node6" href="$BMS__SPI_8c.html" title="SPI protocol handling source file." alt="" coords="272,169,440,211"/>
-<area shape="rect" id="node4" href="$BQ76942_8c.html" title="function implementation for handling BQ769x2 BMS features" alt="" coords="5,259,173,300"/>
-</map>

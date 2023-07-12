@@ -1,6 +1,0 @@
-<map id="FPU Functions" name="FPU Functions">
-<area shape="rect" id="node1" href="$group__CMSIS__Core__SAUFunctions.html" title="Functions that configure the SAU." alt="" coords="342,5,458,31"/>
-<area shape="rect" id="node2" href="$group__CMSIS__Core__NVICFunctions.html" title="Functions that manage interrupts and exceptions via the NVIC." alt="" coords="5,31,125,56"/>
-<area shape="rect" id="node3" title="Function that provides FPU type." alt="" coords="173,31,288,56"/>
-<area shape="rect" id="node4" href="$group__CMSIS__Core__CacheFunctions.html" title="Functions that configure Instruction and Data cache." alt="" coords="336,55,464,80"/>
-</map>

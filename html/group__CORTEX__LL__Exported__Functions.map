@@ -1,8 +1,0 @@
-<map id="CORTEX Exported Functions" name="CORTEX Exported Functions">
-<area shape="rect" id="node1" href="$group__CORTEX__LL__EF__MCU__INFO.html" title=" " alt="" coords="408,5,497,31"/>
-<area shape="rect" id="node2" title=" " alt="" coords="128,80,331,105"/>
-<area shape="rect" id="node3" href="$group__CORTEX__LL__EF__HANDLER.html" title=" " alt="" coords="410,55,495,80"/>
-<area shape="rect" id="node4" href="$group__CORTEX__LL__EF__LOW__POWER__MODE.html" title=" " alt="" coords="379,104,527,129"/>
-<area shape="rect" id="node5" href="$group__CORTEX__LL__EF__SYSTICK.html" title=" " alt="" coords="415,153,491,179"/>
-<area shape="rect" id="node6" href="$group__CORTEX__LL.html" title=" " alt="" coords="5,80,80,105"/>
-</map>

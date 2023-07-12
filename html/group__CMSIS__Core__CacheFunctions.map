@@ -1,5 +1,0 @@
-<map id="Cache Functions" name="Cache Functions">
-<area shape="rect" id="node1" href="$group__CMSIS__Core__FpuFunctions.html" title="Function that provides FPU type." alt="" coords="5,5,120,31"/>
-<area shape="rect" id="node2" title="Functions that configure Instruction and Data cache." alt="" coords="168,5,296,31"/>
-<area shape="rect" id="node3" href="$group__CMSIS__Core__SysTickFunctions.html" title="Functions that configure the System." alt="" coords="344,5,483,31"/>
-</map>

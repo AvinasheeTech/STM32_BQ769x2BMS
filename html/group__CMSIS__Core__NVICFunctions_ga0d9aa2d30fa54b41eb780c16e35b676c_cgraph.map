@@ -1,4 +1,0 @@
-<map id="__NVIC_SystemReset" name="__NVIC_SystemReset">
-<area shape="rect" id="node1" title="System Reset." alt="" coords="5,5,167,32"/>
-<area shape="rect" id="node2" href="$group__CMSIS__Core__InstructionInterface.html#ga7fe277f5385d23b9c44b2cbda1577ce9" title="Data Synchronization Barrier." alt="" coords="215,5,277,32"/>
-</map>

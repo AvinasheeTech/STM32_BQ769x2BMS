@@ -1,8 +1,0 @@
-<map id="BQ769x2_ReadVoltage" name="BQ769x2_ReadVoltage">
-<area shape="rect" id="node1" title="function to read a specific cell voltage or stack / pack / LD voltage" alt="" coords="5,25,176,51"/>
-<area shape="rect" id="node2" href="$BQ76942_8c.html#aa188ab5f76cb5d111b4a658c1f9f0e50" title="function to handle direct commands of BQ769x2" alt="" coords="224,25,413,51"/>
-<area shape="rect" id="node3" href="$main_8h.html#ab7cce8122024d7ba47bf10f434956de4" title="function to provide delay in milliseconds specified by user" alt="" coords="824,50,909,77"/>
-<area shape="rect" id="node4" href="$BMS__SPI_8h.html#a832a654e37b91f8056181250df3defeb" title="function to read BQ769x2 registers over SPI" alt="" coords="463,25,569,51"/>
-<area shape="rect" id="node6" href="$BMS__SPI_8h.html#af91785541fc03cda495a927e966241f6" title="function to write BQ769x2 registers over SPI" alt="" coords="461,75,571,102"/>
-<area shape="rect" id="node5" href="$BMS__SPI_8c.html#a372b502740f2a42cc973254b3efbbf80" title="function to perform transmit and recieve operations over SPI protocol" alt="" coords="619,75,776,102"/>
-</map>

@@ -1,0 +1,10 @@
+../Drivers/BQ76942_BMS/src/BQ76942.c:32:10:BQ769x2_ReadVoltage	16	static
+../Drivers/BQ76942_BMS/src/BQ76942.c:52:6:BQ769x2_ReadAllVoltages	16	static
+../Drivers/BQ76942_BMS/src/BQ76942.c:64:6:BQ769x2_ReadCellBalance	8	static
+../Drivers/BQ76942_BMS/src/BQ76942.c:70:6:BQ769x2_WriteCellBalance	16	static
+../Drivers/BQ76942_BMS/src/BQ76942.c:83:15:Checksum	24	static
+../Drivers/BQ76942_BMS/src/BQ76942.c:103:6:BQ769x2_SetRegister	32	static
+../Drivers/BQ76942_BMS/src/BQ76942.c:154:6:handle_direct_commands	24	static
+../Drivers/BQ76942_BMS/src/BQ76942.c:182:6:handle_subcommands	24	static
+../Drivers/BQ76942_BMS/src/BQ76942.c:229:6:handle_command_only_subcommands	24	static
+../Drivers/BQ76942_BMS/src/BQ76942.c:246:6:BQ769x2_Init	8	static

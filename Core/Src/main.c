@@ -322,8 +322,13 @@ int main(void)
   delay_ms(100);
   handle_command_only_subcommands(SLEEP_DISABLE); // Sleep mode is enabled by default. For this example, Sleep is disabled to
     									   // demonstrate full-speed measurements in Normal mode.
-
   delay_ms(60); delay_ms(60); delay_ms(60); delay_ms(60);  //wait to start measurements after FETs close
+  BQ769x2_WriteCellBalance(0x0070);
+  delay_ms(5);
+  BQ769x2_WriteCellBalance(0x0070);
+  delay_ms(5);
+//  BQ769x2_WriteCellBalance(0x0028);
+//  delay_ms(5);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -334,6 +339,8 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
 	  BQ769x2_ReadAllVoltages(); //Read all available voltages
+	  delay_ms(5);
+	  BQ769x2_ReadCellBalance();   //Read active cell being balanced
 
   }
   /* USER CODE END 3 */

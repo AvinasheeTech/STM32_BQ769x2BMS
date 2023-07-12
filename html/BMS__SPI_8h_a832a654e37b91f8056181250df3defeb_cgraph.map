@@ -1,5 +1,0 @@
-<map id="SPI_ReadReg" name="SPI_ReadReg">
-<area shape="rect" id="node1" title="function to read BQ769x2 registers over SPI" alt="" coords="5,5,112,32"/>
-<area shape="rect" id="node2" href="$main_8h.html#ab7cce8122024d7ba47bf10f434956de4" title="function to provide delay in milliseconds specified by user" alt="" coords="365,5,451,32"/>
-<area shape="rect" id="node3" href="$BMS__SPI_8c.html#a372b502740f2a42cc973254b3efbbf80" title="function to perform transmit and recieve operations over SPI protocol" alt="" coords="160,31,317,57"/>
-</map>

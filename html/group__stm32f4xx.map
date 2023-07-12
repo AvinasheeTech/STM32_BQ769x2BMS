@@ -1,8 +1,0 @@
-<map id="Stm32f4xx" name="Stm32f4xx">
-<area shape="rect" id="node1" title=" " alt="" coords="116,95,209,121"/>
-<area shape="rect" id="node2" href="$group__Library__configuration__section.html" title=" " alt="" coords="257,5,416,45"/>
-<area shape="rect" id="node3" href="$group__Exported__types.html" title=" " alt="" coords="275,70,398,95"/>
-<area shape="rect" id="node4" href="$group__Exported__macro.html" title=" " alt="" coords="273,119,401,145"/>
-<area shape="rect" id="node6" href="$group__Device__Included.html" title=" " alt="" coords="272,169,401,194"/>
-<area shape="rect" id="node5" href="$group__CMSIS.html" title=" " alt="" coords="5,95,68,121"/>
-</map>

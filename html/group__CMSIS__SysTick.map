@@ -1,7 +1,0 @@
-<map id="System Tick Timer (SysTick)" name="System Tick Timer (SysTick)">
-<area shape="rect" id="node1" title="Type definitions for the System Timer Registers." alt="" coords="216,37,364,77"/>
-<area shape="rect" id="node4" href="$group__CMSIS__DWT.html" title="Type definitions for the Data Watchpoint and Trace (DWT)" alt="" coords="415,5,573,45"/>
-<area shape="rect" id="node5" href="$group__CMSIS__ITM.html" title="Type definitions for the Instrumentation Trace Macrocell (ITM)" alt="" coords="412,69,576,109"/>
-<area shape="rect" id="node2" href="$group__CMSIS__SCnSCB.html" title="Type definitions for the System Control and ID Register not in the SCB." alt="" coords="9,5,164,45"/>
-<area shape="rect" id="node3" href="$group__CMSIS__SCB.html" title="Type definitions for the System Control Block Registers." alt="" coords="5,69,168,109"/>
-</map>

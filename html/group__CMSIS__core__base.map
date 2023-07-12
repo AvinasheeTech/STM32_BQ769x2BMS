@@ -1,6 +1,0 @@
-<map id="Core Definitions" name="Core Definitions">
-<area shape="rect" id="node1" href="$group__CMSIS__Core__FunctionInterface.html" title=" " alt="" coords="387,5,579,45"/>
-<area shape="rect" id="node2" title="Definitions for base addresses, unions, and structures." alt="" coords="212,42,339,67"/>
-<area shape="rect" id="node3" href="$group__CMSIS__Core__NVICFunctions.html" title="Functions that manage interrupts and exceptions via the NVIC." alt="" coords="423,70,543,95"/>
-<area shape="rect" id="node4" href="$group__CMSIS__core__bitfield.html" title="Macros for use with bit field definitions (xxx_Pos, xxx_Msk)." alt="" coords="5,35,164,75"/>
-</map>

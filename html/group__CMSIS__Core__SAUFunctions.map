@@ -1,5 +1,0 @@
-<map id="SAU Functions" name="SAU Functions">
-<area shape="rect" id="node1" title="Functions that configure the SAU." alt="" coords="168,5,284,31"/>
-<area shape="rect" id="node3" href="$group__CMSIS__Core__SysTickFunctions.html" title="Functions that configure the System." alt="" coords="332,5,471,31"/>
-<area shape="rect" id="node2" href="$group__CMSIS__Core__FpuFunctions.html" title="Function that provides FPU type." alt="" coords="5,5,120,31"/>
-</map>

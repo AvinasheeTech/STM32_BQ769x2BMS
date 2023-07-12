@@ -1,4 +1,0 @@
-<map id="LL_Init1msTick" name="LL_Init1msTick">
-<area shape="rect" id="node1" title="This function configures the Cortex&#45;M SysTick source to have 1ms time base." alt="" coords="5,5,124,32"/>
-<area shape="rect" id="node2" href="$group__UTILS__LL__EF__DELAY.html#ga170d1d651b46544daf571fb6b4e3b850" title="This function configures the Cortex&#45;M SysTick source of the time base." alt="" coords="172,5,263,32"/>
-</map>

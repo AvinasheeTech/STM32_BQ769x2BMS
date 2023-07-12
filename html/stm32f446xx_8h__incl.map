@@ -1,8 +1,0 @@
-<map id="Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f446xx.h" name="Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f446xx.h">
-<area shape="rect" id="node1" title="CMSIS STM32F446xx Device Peripheral Access Layer Header File." alt="" coords="263,5,436,61"/>
-<area shape="rect" id="node2" href="$core__cm4_8h.html" title="CMSIS Cortex&#45;M4 Core Peripheral Access Layer Header File." alt="" coords="118,109,215,136"/>
-<area shape="rect" id="node3" title=" " alt="" coords="209,259,279,285"/>
-<area shape="rect" id="node6" href="$system__stm32f4xx_8h.html" title="CMSIS Cortex&#45;M4 Device System Source File for STM32F4xx devices." alt="" coords="387,109,546,136"/>
-<area shape="rect" id="node4" href="$cmsis__version_8h.html" title="CMSIS Core(M) Version definitions." alt="" coords="26,184,153,211"/>
-<area shape="rect" id="node5" href="$cmsis__compiler_8h.html" title="CMSIS compiler generic header file." alt="" coords="177,184,311,211"/>
-</map>

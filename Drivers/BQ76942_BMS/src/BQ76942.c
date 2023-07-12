@@ -61,6 +61,17 @@ void BQ769x2_ReadAllVoltages(void)
   LD_Voltage = BQ769x2_ReadVoltage(LDPinVoltage);
 }
 
+void BQ769x2_ReadCellBalance(void){
+
+	handle_subcommands(CB_SET_LVL, 0x00, R);
+	delay_ms(5);
+}
+
+void BQ769x2_WriteCellBalance(uint16_t data){
+
+	handle_subcommands(CB_SET_LVL, data, W2);
+	delay_ms(5);
+}
 
 /**
  * @brief  function to calculate the checksum when writing to a RAM register
@@ -189,7 +200,7 @@ void handle_subcommands(uint16_t command, uint16_t data, uint8_t type)
 		//FET_Control, REG12_Control
 		TX_Reg[2] = data & 0xff;
 		SPI_WriteReg(0x3E,TX_Reg,3);
-		delay_ms(10);
+		delay_ms(20);
 		TX_Buffer[0] = Checksum(TX_Reg, 3);
 		TX_Buffer[1] = 0x05; //combined length of registers address and data
 		SPI_WriteReg(0x60, TX_Buffer, 2);
@@ -200,7 +211,7 @@ void handle_subcommands(uint16_t command, uint16_t data, uint8_t type)
 		TX_Reg[2] = data & 0xff;
 		TX_Reg[3] = (data >> 8) & 0xff;
 		SPI_WriteReg(0x3E,TX_Reg,4);
-		delay_ms(10);
+		delay_ms(20);
 		TX_Buffer[0] = Checksum(TX_Reg, 4);
 		TX_Buffer[1] = 0x06; //combined length of registers address and data
 		SPI_WriteReg(0x60, TX_Buffer, 2);
