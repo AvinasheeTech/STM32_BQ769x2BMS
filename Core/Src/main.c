@@ -2,7 +2,8 @@
 /**
   ******************************************************************************
   * @file           main.c
-  * @brief          Main program body
+  * @brief          main program to implement 6S BMS with STM32F4
+  * @author         Avinashee Tech
   ******************************************************************************
   */
 /* USER CODE END Header */
